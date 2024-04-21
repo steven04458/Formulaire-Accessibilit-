@@ -1,0 +1,33 @@
+.card-background {
+    background-image: url(../../assets/bg-card-front.png);
+    width: 397px;
+    height: 195px;
+    padding: 25px;
+    border-radius: 10px;
+    color: white;
+    position: absolute;
+    top: 10%;
+    left: 13%;
+    align-content: space-between;
+}
+.cardNumberFront {
+    width: 100%;
+}
+.cardLogoFront {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px){
+    .card-background {
+        background-image: url(../../assets/bg-card-front.png);
+        background-size: 100% 100%;
+        width: 70%;
+        height: 155px;
+        left: 6%;
+        padding: 5%;
+        top: 14%;
+    }
+}
